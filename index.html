@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+  <link  rel='stylesheet' href='/demonslayer/css/style.css'> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,opsz,wght@0,8..30,100..900;1,8..30,100..900&display=swap" rel="stylesheet">
+  <title>Аниме кафе</title>
+  <script defer src = '/main.js'> </script>
+  <style type="text/css" >
+    body
+
+      
+    { 
+      
+      background-image: url(/demonslayer/src/icon/ind/zdfon.png);
+      background-repeat: no-repeat;
+      background-size: auto;
+      font-family: "Piazzolla", serif;
+      
+    }
+
+   
+    
+
+   
+   
+
+    
+   </style>
+</head>
+
+<body>
+  
+  <header>
+
+    <div class="header">
+      <div class="wrap-logo">
+        <a href="/demonslayer/index.html" class="logo"><img src="/demonslayer/src/icon/ind/logotip (2).svg" class="log"  ></a>
+      </div>
+    
+      <nav>
+        <div class="navi">
+          <a class="navm" href="/demonslayer/menu.html">МЕНЮ</a>
+          <a class="navm" href="#id-contenier">КОНТАКТЫ</a>
+          <a class="navm" href="#id-acc">АКЦИИ</a>
+          <a class="navm" href="#id-onas">О НАС</a>
+        </div>
+      </nav>
+    
+      <nav>
+        <div class="phone-image" >
+          <a href="https://t.me/iliashka5" class="img"><img src="/demonslayer/src/icon/ind/tg (2).svg" width="45"></a>      
+          <a href="#" class="img"><img src="/demonslayer/src/icon/ind/vk.svg" width="45"></a> 
+        </div>
+      </nav>
+    
+      <nav>
+       <div class="login"><a href="/demonslayer/registr.html" class="img"><img src="/demonslayer/src/icon/ind/login.svg" width="45"></a> </div>
+      </nav>
+
+    </div>
+  </header>
+
+     
+      <div class="header-down"> 
+        <div class="header-title">
+          <div class="header-titlee">
+             <div class="header-sobtitle">
+              Кафе по тематике - аниме  "Клинок рассекаюших демонов 
+             </div>
+            </div> 
+         </div>
+         <div class="dopcont"><img src="/demonslayer/src/icon/ind/dop.png" class="slayicon"></a></div>
+      </div> 
+          
+           
+      
+          
+      <section id="id-onas">  
+        <div class="veshea">
+          <div class="logi">
+            <a class="logoi"><img src="/demonslayer/src/icon/ind/log.svg" width="25" class="logop"  ></a>
+          </div>
+        
+          <nav>
+            <div class="vessob">
+              <div class="header-sobtitlee">
+                НЕМНОГО О <pre></pre>
+             </div>
+              <div class="header-sobtitlle">
+                HUNTER CORNER
+              </div>
+            </div>
+          </nav>
+          
+    
+         <nav>
+            <div class="navis">
+              <a class="tanjiro"><img src="/demonslayer/src/icon/ind/tanj.svg" class="tanjiroicon" ></a>
+            </div>
+          </nav>
+       </div>
+     
+        <div class="hea">
+          <div class="inter">
+          <div class="fotoint"><img src="/demonslayer/src/icon/ind/inter.png" class="itetre1"></div>
+            <div class="titleint">
+              <div class="titleintt">
+               Наше кафе сделаны в  японском стиле<br> 
+              с элементами аниме. Мы использовали <br>  натуральные цвета и мягкое освещение <br>  для создания уютной атмосферы.
+              </div> 
+            </div>
+          </div>
+        </div>
+    
+    
+        <div class="hea2">
+          <div class="inter2">
+            <div class="titleint2">
+              <div class="titleintt2">
+               В нашем кафе есть фирменными товары,<br> созданными с любовью и заботой о каждом<br> клиенте. Каждое изделие — это не просто аксессуар,<br>  а частичка нашей истории,<br> которую вы можете взять с собой
+              </div> 
+            </div>
+            <div class="fotoint2"><img src="/demonslayer/src/icon/ind/muk.png" class="itetre2"></div>
+          </div>
+        </div>
+    
+        <div class="hea3">
+          <div class="inter3">
+            <div class="fotoint3">  
+              <img src="/demonslayer/src/icon/ind/eda.png" class="itetre3">
+            </div>
+            <div class="titleint3">
+              <div class="titleintt3">
+                Попробуйте наши фирменные блюда, которые <br> сделаны из свежих ингредиентов и уникальных<br> рецептов, чтобы погрузится в афтмосферу аниме <br>“Клинок расекающих демонов”. 
+              </div> 
+          </div>
+        </div>
+      </div>
+    </section>  
+
+      
+
+
+
+    <section id="id-acc">
+      <div class="slider">
+        <div class="slider-container">
+          <div class="slide"></div>
+          <div class="slide"></div>
+          <div class="slide"></div>
+        </div>
+        <button class="arrow left">&#x276E;</button>
+        <button class="arrow right">&#x276F;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+
+    <script>
+      const slider = document.querySelector('.slider');
+      const slides = document.querySelectorAll('.slide');
+      const dotsContainer = document.querySelector('.dots');
+      let currentIndex = 0;
+  
+      slides.forEach((_, i) => {
+        dotsContainer.innerHTML += `<button class="dot ${i === 0 ? 'active' : ''}" data-index="${i}"></button>`;
+      });
+  
+      const updateSlider = (index) => {
+        currentIndex = (index + slides.length) % slides.length;
+        slider.querySelector('.slider-container').style.transform = `translateX(-${currentIndex * 100}%)`;
+        dotsContainer.querySelectorAll('.dot').forEach((dot, i) => 
+          dot.classList.toggle('active', i === currentIndex)
+        );
+      };
+  
+      slider.addEventListener('click', (e) => {
+        if (e.target.classList.contains('arrow')) 
+          updateSlider(currentIndex + (e.target.classList.contains('right') ? 1 : -1));
+        if (e.target.classList.contains('dot')) 
+          updateSlider(+e.target.dataset.index);
+      });
+    </script>
+
+<section id="id-contenier">
+    <div class="contenier-contacts">
+     <div class="contenier-map">
+        <div class="map">
+          <iframe src ="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2004.5867099371096!2d30.402266713256356!3d59.839395974760514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46962579ee22b401%3A0x6e4a4e5021ab7174!2z0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LPRgdC60LjQuSDQutC-0LvQu9C10LTQtiDQuNC90YTQvtGA0LzQsNGG0LjQvtC90L3Ri9GFINGC0LXRhdC90L7Qu9C-0LPQuNC5!5e0!3m2!1sru!2sru!4v1738943812717!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapdicor"> </iframe>
+        </div>
+      </div>
+      <div class="cont">
+        <div class="con">
+          КОНТАКТЫ <br><br>
+          <p> 
+        </div>
+
+        <div class="co">
+          <p>
+          "Какая-то улица": <br> 
+          +7 (999) 999 99 99 <br>
+          Пн-Пт (12:00 - 00:00).<br>
+          Сб, Вс (12:00 - 02:00).
+        </div>
+
+        <div class="co">
+          "Какая-то улица": <br> 
+          +7 (999) 999 99 99<br>
+          Пн-Пт (12:00 - 00:00).<br>
+          Сб, Вс (12:00 - 02:00).
+          <p> 
+        </div>
+
+       <div class="bot">
+          <div class="loginb"><a class="buttono buttono1" href="/demonslayer/registr.html"> АВТОРИЗАЦИЯ </a ></div><p>
+        </div>
+
+        <div class="nom">
+          <p>
+          <a href="#" class="img"><img src="/demonslayer/src/icon/ind/tg (2).svg" width="45"></a>      
+          <a href="#" class="img"><img src="/demonslayer/src/icon/ind/vk.svg" width="45"></a> 
+        </div>
+      </div>
+
+    </div>
+</section>
+  
+
+   
+  </body>
+
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false">
+    function initialize() {
+    var myLatlng = new google.maps.LatLng(53.3333,-3.08333),
+    mapOptions = {
+        zoom: 11,
+        center: myLatlng,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+var map = new google.maps.Map(document.getElementById('map'), mapOptions),
+contentString = 'Здесь должен быть какой-то адрес',
+infowindow = new google.maps.InfoWindow({
+    content: contentString,
+    maxWidth: 500
+});
+
+var marker = new google.maps.Marker({
+    position: myLatlng,
+    map: map
+});
+
+google.maps.event.addListener(marker, 'click', function() {
+    infowindow.open(map,marker);
+});
+
+google.maps.event.addDomListener(window, "resize", function() {
+    var center = map.getCenter();
+    google.maps.event.trigger(map, "resize");
+    map.setCenter(center);
+    });
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
+
+  
+</html>
+ <!-- <a href="#" id="scroll_top">▲</a> --> <!-- <div class="headermap">
+      <section id="id-contenier">
+        <div class="conteniermap"> 
+          <div class="map-responsive">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2004.5867099371144!2d30.402266713256356!3d59.839395974760514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46962579ee22b401%3A0x6e4a4e5021ab7174!2z0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LPRgdC60LjQuSDQutC-0LvQu9C10LTQtiDQuNC90YTQvtGA0LzQsNGG0LjQvtC90L3Ri9GFINGC0LXRhdC90L7Qu9C-0LPQuNC5!5e0!3m2!1sru!2sru!4v1737748285080!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+           </div>
+        </div>
+
+        <div class="cont">
+          <div class="con">
+            КОНТАКТЫ <br><br>
+            <p> 
+          </div>
+  
+          <div class="co">
+            <p>
+            "Какая-то улица": <br> 
+            +7 (999) 999 99 99 <br>
+            Пн-Пт (12:00 - 00:00).<br>
+            Сб, Вс (12:00 - 02:00).
+          </div>
+
+          <div class="co">
+            "Какая-то улица": <br> 
+            +7 (999) 999 99 99<br>
+            Пн-Пт (12:00 - 00:00).<br>
+            Сб, Вс (12:00 - 02:00).
+            <p> 
+          </div>
+
+         <div class="bot">
+            <div class="loginb"><a class="buttono buttono1" href=""> АВТОРИЗАЦИЯ </a ></div><p>
+          </div>
+
+          <div class="nom">
+            <p>
+            <a href="#" class="img"><img src="/src/icon/ind/tg (2).svg" width="45"></a>      
+            <a href="#" class="img"><img src="/src/icon/ind/vk.svg" width="45"></a> 
+          </div>
+        </div>
+      </section>
+    </div> -->
