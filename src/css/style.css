@@ -762,6 +762,24 @@ display: block;
 
 
 
+.slide:nth-child(1) 
+{
+  background-image: url(/src/icon/ind/Group\ 21.png);
+  border-radius: 36px 36px 36px 36px;
+  height: 671px;
+}
+
+.slide:nth-child(2) 
+{
+  background-image: url(/src/icon/ind/sushibig.png);
+ 
+}
+
+.slide:nth-child(3) 
+{
+  background-image: url(/src/icon/ind/coffeebig.png);
+ 
+}
 
 .text-overlay {
   position: absolute;
@@ -957,9 +975,8 @@ border-bottom:1px solid #E0E4CC;
   
   .mapdicor
   {
-    width:1000px;
+    width: 1062px;
     height:1009px;
-    
   }
 
   .bot
@@ -1098,9 +1115,9 @@ border-bottom:1px solid #E0E4CC;
   .inter3{display:block; padding:10px 10px 10px 10px; }
   .itetre3{width:400px; }
   .titleintt3{font-size:16px;margin-top:40px; margin-left:0px; padding:20px 10px 20px 30px}
-  .slide:nth-child(1){background-image: url(/demonslayer//src/icon/ind/aciasmall.png); height:422px; width:320px;border-radius:36px; margin-left:10px;}
-  .slide:nth-child(2){background-image: url(/demonslayer//src/icon/ind/sushismall.png); height:422px;width:320px;border-radius:36px; margin-left:-9px;}
-  .slide:nth-child(3){background-image: url(/demonslayer//src/icon/ind/coffeesmall.png); height:422px; width:320px;border-radius:36px; margin-left:-0px;}
+  .slide:nth-child(1){background-image: url(/src/icon/ind/aciasmall.png); height:422px; width:320px;border-radius:36px; margin-left:10px;}
+  .slide:nth-child(2){background-image: url(/src/icon/ind/sushismall.png);height:422px;width:320px;border-radius:36px;margin-left:-9px;}
+  .slide:nth-child(3){background-image: url(/src/icon/ind/coffeesmall.png); height:422px; width:320px;border-radius:36px; margin-left:-0px;}
   .slider{width: 320px;margin-left:60px;margin-top:100px;border-radius:36px;height: auto;}
   .dots{bottom:15px}
   .arrow {top: 50%;font-size: 30px;}
@@ -1123,9 +1140,9 @@ border-bottom:1px solid #E0E4CC;
   .bot{margin: 0 0 0 0;padding:0 0 0 0}
   .loginb{margin-left:80px;margin-top: 80px;}
   .mapdicor{width:414px; height:400px;}
-  .slide:nth-child(1){background-image: url(/demonslayer//src/icon/ind/aciasmall.png); height:422px; width:320px;border-radius:36px; margin-left:10px;}
-  .slide:nth-child(2){background-image: url(/demonslayer//src/icon/ind/sushismall.png); height:422px;width:320px;border-radius:36px; margin-left:-9px;}
-  .slide:nth-child(3){background-image: url(/demonslayer//src/icon/ind/coffeesmall.png); height:422px; width:320px;border-radius:36px; margin-left:-0px;}
+  .slide:nth-child(1){background-image: url(/src/icon/ind/aciasmall.png); height:422px; width:320px;border-radius:36px; margin-left:10px;}
+  .slide:nth-child(2){background-image: url(/src/icon/ind/sushismall.png); height:422px;width:320px;border-radius:36px; margin-left:-9px;}
+  .slide:nth-child(3){background-image: url(/src/icon/ind/coffeesmall.png); height:422px; width:320px;border-radius:36px; margin-left:-0px;}
   .slider{width: 320px;margin-left:50px;margin-top:100px;border-radius:36px;height: auto;}
   .dots{bottom:15px}
   .arrow {top: 50%;font-size: 30px;}
@@ -1147,9 +1164,9 @@ border-bottom:1px solid #E0E4CC;
   .loginb{margin-left:80px; margin-top: 80px;}
   .bot{width:390px;}
   .nom{margin-left:0px; margin-top: 80px;}
-   .slide:nth-child(1){background-image: url(/demonslayer//src/icon/ind/aciasmall.png); height:422px; width:320px;border-radius:36px; margin-left:10px;}
-  .slide:nth-child(2){background-image: url(/demonslayer//src/icon/ind/sushismall.png); height:422px;width:320px;border-radius:36px; margin-left:-9px;}
-  .slide:nth-child(3){background-image: url(/demonslayer//src/icon/ind/coffeesmall.png); height:422px; width:320px;border-radius:36px; margin-left:-0px;}
+   .slide:nth-child(1){background-image: url(/src/icon/ind/aciasmall.png); height:422px; width:320px;border-radius:36px; margin-left:10px;}
+  .slide:nth-child(2){background-image: url(/src/icon/ind/sushismall.png); height:422px;width:320px;border-radius:36px; margin-left:-9px;}
+  .slide:nth-child(3){background-image: url(/src/icon/ind/coffeesmall.png); height:422px; width:320px;border-radius:36px; margin-left:-0px;}
   .slider{width: 320px;margin-left:50px;margin-top:100px;border-radius:36px;height: auto;}
   .dots{bottom:15px}
   .arrow {top: 50%;font-size: 30px;}
@@ -1176,15 +1193,18 @@ border-bottom:1px solid #E0E4CC;
   .header-sobtitlle{font-size:14pt; margin-top:0px}
   .header-sobtitlee{font-size:14pt}
   .slayicon{width:290px;  margin:0px 0px 0px -50px }
-  .slide:nth-child(1){background-image: url(/demonslayer//src/icon/ind/aciasmall.png); height:422px; width:320px;border-radius:36px; margin-left:10px;}
-  .slide:nth-child(2){background-image: url(/demonslayer//src/icon/ind/sushismall.png); height:422px;width:320px;border-radius:36px; margin-left:-9px;}
-  .slide:nth-child(3){background-image: url(/demonslayer//src/icon/ind/coffeesmall.png); height:422px; width:320px;border-radius:36px; margin-left:-0px;}
+  .slide:nth-child(1){background-image: url(/src/icon/ind/aciasmall.png); height:422px; width:320px;border-radius:36px; margin-left:10px;}
+  .slide:nth-child(2){background-image: url(/src/icon/ind/sushismall.png); height:422px;width:320px;border-radius:36px; margin-left:-9px;}
+  .slide:nth-child(3){background-image: url(/src/icon/ind/coffeesmall.png); height:422px; width:320px;border-radius:36px; margin-left:-0px;}
   .slider{width: 320px;margin-left:40px;margin-top:100px;border-radius:36px;height: auto;}
   .dots{bottom:15px}
   .arrow {top: 50%;font-size: 30px;}
   
 }
-slide:nth-child(1){background-image: url(/demonslayer/src/img/menu/mini-kitchen.png); height:422px; width:320px;border-radius:36px; margin-left:10px;}
+
+
+
+  
 
 
 
@@ -1212,9 +1232,9 @@ slide:nth-child(1){background-image: url(/demonslayer/src/img/menu/mini-kitchen.
   .con{width:300px; padding-left:50px}
   .co{width:300px;  padding-left:50px}
   .slayicon{width:290px;  margin:0px 0px 0px -50px }
-  .slide:nth-child(1){background-image: url(/demonslayer//src/icon/ind/aciasmall.png); height:422px; width:320px;border-radius:36px; margin-left:10px;}
-  .slide:nth-child(2){background-image: url(/demonslayer//src/icon/ind/sushismall.png); height:422px;width:320px;border-radius:36px; margin-left:-9px;}
-  .slide:nth-child(3){background-image: url(/demonslayer//src/icon/ind/coffeesmall.png); height:422px; width:320px;border-radius:36px; margin-left:-0px;}
+  .slide:nth-child(1){background-image: url(/src/icon/ind/aciasmall.png); height:422px; width:320px;border-radius:36px; margin-left:10px;}
+  .slide:nth-child(2){background-image: url(/src/icon/ind/sushismall.png); height:422px;width:320px;border-radius:36px; margin-left:-9px;}
+  .slide:nth-child(3){background-image: url(/src/icon/ind/coffeesmall.png); height:422px; width:320px;border-radius:36px; margin-left:-0px;}
   
 }
 
@@ -1241,9 +1261,9 @@ slide:nth-child(1){background-image: url(/demonslayer/src/img/menu/mini-kitchen.
   .con{width:300px; padding-left:50px}
   .co{width:300px;  padding-left:50px}
   .slayicon{width: 280px;margin: 0px 0px 0px -50px;}
-  .slide:nth-child(1){background-image: url(/demonslayer//src/icon/ind/aciasmall.png); height:422px; width:320px;border-radius:36px; margin-left:10px;}
-  .slide:nth-child(2){background-image: url(/demonslayer//src/icon/ind/sushismall.png); height:422px;width:320px;border-radius:36px; margin-left:-9px;}
-  .slide:nth-child(3){background-image: url(/demonslayer//src/icon/ind/coffeesmall.png); height:422px; width:320px;border-radius:36px; margin-left:-0px;}
+  .slide:nth-child(1){background-image: url(/src/icon/ind/aciasmall.png); height:422px; width:320px;border-radius:36px; margin-left:10px;}
+  .slide:nth-child(2){background-image: url(/src/icon/ind/sushismall.png); height:422px;width:320px;border-radius:36px; margin-left:-9px;}
+  .slide:nth-child(3){background-image: url(/src/icon/ind/coffeesmall.png); height:422px; width:320px;border-radius:36px; margin-left:-0px;}
   .arrow {top: 45%;font-size: 30px;}
   
 }
