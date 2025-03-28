@@ -1121,6 +1121,11 @@ border-bottom:1px solid #E0E4CC;
   .dots{bottom:15px}
   .arrow {top: 50%;font-size: 30px;}
 }
+@media (max-width: 455px)
+{
+  .mapdicor{width:455px; height:400px;}
+  .cont{width:455px;}
+}
 
 
 @media (max-width: 450px)
@@ -1178,6 +1183,23 @@ border-bottom:1px solid #E0E4CC;
   .arrow {top: 50%;font-size: 30px;}
 }
 
+@media (max-width: 445px)
+{
+   .mapdicor{width:445px; height:400px;}
+  .cont{width:445px;}
+}
+@media (max-width: 440px)
+{
+    .mapdicor{width:440px; height:400px;}
+  .cont{width:440px;}
+}
+
+@media (max-width: 435px)
+
+{
+  .mapdicor{width:435px; height:400px;}
+  .cont{width:435px;}
+}
 
 @media (max-width: 430px)
 {
