@@ -1066,6 +1066,67 @@ border-bottom:1px solid #E0E4CC;
   .slider{margin-left:90px}
 }
 
+@media (max-width: 470px)
+{
+  body {/* background-image: url(scr/icon/ind/px.png); */}
+  .header{margin-top: 0px;/* padding-inline:10px; */display:block;row-gap:px;flex-wrap:wrap-reverse;}
+  .log{width:150px;margin-left:10px}
+  .dopcont{ margin-top: 185px;}
+  .navi {order: 1 ; flex-basis:100%; column-gap:10px; }
+  .login{position:absolute;margin: 40px  0px 260px 360px;}
+  .logi{margin-left:10px}
+  .header-title{margin-top: 0px;}
+  .header-sobtitle{margin-top: 0px;}
+  .header-down{display:block;margin: 0px 20px 0px 20px;}
+  .phone-image{display:none}
+  .slayicon{width:300px;  margin:0px 0px 0px -40px }
+  .navm {font-size:14pt;}
+  .veshea{justify-content:inherit; margin-top:300px}
+  .logoi{display:none}
+  .navis{margin:0 0 0 0}
+  .tanjiro{padding:0 0 0 0}
+  .tanjiroicon{width:51px}
+  .header-sobtitlle{font-size:12pt; margin-top:0px}
+  .header-sobtitlee{font-size:12pt}
+  .containerr{width:200px}
+  .phone-image{width:px;}
+  .vessob{padding-left:20px}
+  .header-sobtitle{font-size:24px;/* margin-top:100px; */padding-top: 300px;}
+  .contenier-contacts{display: block;}
+  .mapdicor{width:470px; height:400px;}
+  .cont{width:470px;}
+   .nom{width:auto; margin-top:70px; padding-left:80px}
+  .con{width:auto; padding-left:80px}
+  .co{width:auto;padding-left:80px }
+  .bot{margin: 0 0 0 0;padding:0 0 0 0}
+  .loginb{margin-left:80px;margin-top: 80px;}
+  .hea{padding-left:10px}
+  .inter{display:block; padding:10px 10px 10px 10px }
+  .itetre1{width:400px; padding-left:0px}
+  .titleintt{font-size:16px;margin-left:0px; padding:30px 10px 30px 30px}
+  .inter2{padding:10px 10px 10px 10px; flex-wrap:wrap-reverse }
+  .hea2{padding-left:0px}
+  .itetre2{width:400px;} 
+  .titleint2{padding:0px;}
+  .titleintt2{font-size:16px; margin:40px 0px 0px 0px; padding:30px 10px 30px 30px}
+  .hea3{padding-left:10px}
+  .inter3{display:block; padding:10px 10px 10px 10px; }
+  .itetre3{width:400px; }
+  .titleintt3{font-size:16px;margin-top:40px; margin-left:0px; padding:20px 10px 20px 30px}
+  .slide:nth-child(1){background-image: url(/src/icon/ind/aciasmall.png); height:422px; width:320px;border-radius:36px; margin-left:10px;}
+  .slide:nth-child(2){background-image: url(/src/icon/ind/sushismall.png);height:422px;width:320px;border-radius:36px;margin-left:-9px;}
+  .slide:nth-child(3){background-image: url(/src/icon/ind/coffeesmall.png); height:422px; width:320px;border-radius:36px; margin-left:-0px;}
+  .slider{width: 320px;margin-left:60px;margin-top:100px;border-radius:36px;height: auto;}
+  .dots{bottom:15px}
+  .arrow {top: 50%;font-size: 30px;}
+}
+
+@media (max-width: 465px)
+{
+  .mapdicor{width:465px; height:400px;}
+  .cont{width:465px;}
+}
+
 
 @media (max-width: 460px)
 {
